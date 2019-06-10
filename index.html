@@ -1,1 +1,49 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>class-9</title><link rel=icon type=image/x-icon class=js-site-favicon href=./static/images/avatar.png><link href=./static/css/app.86a4513a3e04c0dcb73e6d6aea4580e4.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=./static/js/manifest.3ad1d5771e9b13dbdad2.js></script><script type=text/javascript src=./static/js/vendor.b0faa03d15c2beafdaa7.js></script><script type=text/javascript src=./static/js/app.4582eaab48e078edce0a.js></script></body></html>
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>9班同学</title><link rel=icon type=image/x-icon class=js-site-favicon href=./static/images/avatar.png><script>(function (doc, win) {
+        var docEl = doc.documentElement,
+          resizeEvt =
+            'orientationchange' in window ? 'orientationchange' : 'resize',
+          recalc = function () {
+            var clientWidth = docEl.clientWidth;
+            if (!clientWidth) return;
+            if (clientWidth > 750) clientWidth = 750; //这里限制最大的宽度尺寸，从而实现PC端的两边留白等
+            docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+          };
+
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+      })(document, window);
+      window.addEventListener('load', () => {
+        document.addEventListener('touchstart', function (event) {
+          if (event.touches.length > 1) {
+            event.preventDefault();
+          }
+        });
+        var lastTouchEnd = 0;
+        document.addEventListener(
+          'touchend',
+          function (event) {
+            var now = new Date().getTime();
+            if (now - lastTouchEnd <= 300) {
+              event.preventDefault();
+            }
+            lastTouchEnd = now;
+          },
+          false
+        );
+      });</script><style>body {
+        background: #f5f5f6;
+        font-family: '微软雅黑';
+      }
+
+      @media screen and (min-width: 750px) {
+        html {
+          background-color: #f5f5f6;
+        }
+
+        body {
+          width: 750px;
+          background-color: #f5f5f6;
+          margin: 0 auto !important;
+        }
+      }</style><link href=./static/css/app.9dd1cff3992573fb32297005ccdcff33.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=./static/js/manifest.3ad1d5771e9b13dbdad2.js></script><script type=text/javascript src=./static/js/vendor.674062ca90e10a8bbd64.js></script><script type=text/javascript src=./static/js/app.360f7f6c174717eb6b4d.js></script></body></html>
