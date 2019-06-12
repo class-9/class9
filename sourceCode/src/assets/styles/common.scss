@@ -1,0 +1,23 @@
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.clearFix:after {
+  content: '';
+  display: block;
+  line-height: 0;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+.clearFix {
+  zoom: 1;
+}
