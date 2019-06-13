@@ -23,6 +23,13 @@ export default {
       ]
     },
     {
+      name: '姜定一',
+      icon: 'http://39.107.121.241:7001/class9Avatar/jdy.JPG',
+      sentence: `尽管天下没有不散的宴席
+但人生何处不相逢`,
+      images: ['http://39.107.121.241:7001/class9/jdy.jpg']
+    },
+    {
       name: '姜雪超',
       icon: 'http://39.107.121.241:7001/class9Avatar/jxc.JPG',
       sentence: '最美班花 1号~',
