@@ -87,7 +87,7 @@ export default {
     {
       name: '王洋',
       icon: 'http://39.107.121.241:7001/class9Avatar/wy.JPG',
-      sentence: '最美班花 3号~',
+      sentence: '挥手告别说珍重 情谊永存藕丝连',
       images: ['http://39.107.121.241:7001/class9/wy.jpg']
     },
     {
