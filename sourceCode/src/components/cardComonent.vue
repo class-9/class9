@@ -1,11 +1,13 @@
 <template>
   <div class="card-wrap">
-    <div class="header-wrap clearFix">
-      <img :src="dataItem.icon" class="icon pull-left">
-      <p class="name pull-left">{{dataItem.name}}</p><br/>
+    <div class="header-wrap clearFix" @click="previewImg(dataItem.icon)">
+      <img :src="dataItem.icon[0]" class="icon pull-left">
+      <p class="name pull-left">{{dataItem.name}}</p>
+      <br>
       <p class="time pull-left">2019.6.10</p>
     </div>
-    <div class="body-wrap">
+    <div class="body-wrap" @click="previewImg(dataItem.images)">
+      <div v-show="dataItem.images.length > 1" class="label">共{{dataItem.images.length}}张</div>
       <img :src="dataItem.images[0]" class="picture">
     </div>
     <div class="sentence-wrap">
@@ -20,49 +22,69 @@ export default {
     dataItem: {
       type: Object
     }
+  },
+  methods: {
+    previewImg (picList) {
+      this.$emit('openPre', picList)
+    }
   }
 }
 </script>
 
 <style lang="scss" scoped>
-  .card-wrap {
-    width: 7.5rem;
-    background: #ffffff;
-    font-family: 'Microsoft YaHei';
-    padding-bottom: .2rem;
-    margin-bottom: .2rem;
-    .header-wrap {
-      padding: .2rem 0 .2rem .2rem;
-      .icon {
-        width: .6rem;
-        height: .6rem;
-        border-radius: 50%;
-        margin-right: .2rem;
-      }
-      .name {
-        font-size: .3rem;
-        color: #000000;
-      }
-      .time {
-        font-size: .2rem;
-        color:rgb(93, 93, 94);
-      }
+.card-wrap {
+  width: 7.5rem;
+  background: #ffffff;
+  font-family: "Microsoft YaHei";
+  padding-bottom: 0.2rem;
+  margin-bottom: 0.2rem;
+  .header-wrap {
+    width: 3rem;
+    padding: 0.2rem 0 0.2rem 0.2rem;
+    .icon {
+      width: 0.6rem;
+      height: 0.6rem;
+      border-radius: 50%;
+      margin-right: 0.2rem;
     }
-    .body-wrap {
-      padding-bottom: .2rem;
-      min-height: 3rem;
-      .picture {
-        width: 7.5rem;
-      }
+    .name {
+      font-size: 0.3rem;
+      color: #000000;
     }
-    .sentence-wrap {
-      padding-left: .2rem;
-      .content {
-        line-height: .36rem;
-        font-size: .24rem;
-        color: #000000;
-        font-family: 'Microsoft YaHei';
-      }
+    .time {
+      font-size: 0.2rem;
+      color: rgb(93, 93, 94);
     }
   }
+  .body-wrap {
+    padding-bottom: 0.2rem;
+    min-height: 3rem;
+    position: relative;
+    .label {
+      width: 0.8rem;
+      height: 0.34rem;
+      line-height: 0.34rem;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 0.3rem;
+      font-size: 0.1rem;
+      color: #ffffff;
+      position: absolute;
+      top: 0.1rem;
+      right: 0.2rem;
+    }
+    .picture {
+      width: 7.5rem;
+    }
+  }
+  .sentence-wrap {
+    padding-left: 0.2rem;
+    .content {
+      line-height: 0.36rem;
+      font-size: 0.24rem;
+      color: #000000;
+      font-family: "Microsoft YaHei";
+    }
+  }
+}
 </style>
