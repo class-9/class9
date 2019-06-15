@@ -67,7 +67,7 @@ export default {
       text-align: center;
       background: rgba(0, 0, 0, 0.5);
       border-radius: 0.3rem;
-      font-size: 0.1rem;
+      font-size: 0.2rem;
       color: #ffffff;
       position: absolute;
       top: 0.1rem;
