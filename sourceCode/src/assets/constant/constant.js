@@ -111,5 +111,23 @@ export default {
       sentence: '希望十年后的我们 还能像今天一样 豪情不减 嬉笑当年',
       images: ['http://39.107.121.241:7001/class9/zty.jpg']
     }
-  ]
+  ],
+  pictureList: {
+    pictrue1: {
+      name: '',
+      pictureContent: []
+    },
+    pictrue2: {
+      name: '',
+      pictureContent: []
+    },
+    pictrue3: {
+      name: '',
+      pictureContent: []
+    },
+    pictrue4: {
+      name: '',
+      pictureContent: []
+    }
+  }
 }

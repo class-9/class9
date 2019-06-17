@@ -6,12 +6,12 @@
       <br>
       <p class="time pull-left">2019.6.10</p>
     </div>
+    <div class="sentence-wrap">
+      <pre class="content">{{dataItem.sentence}}</pre>
+    </div>
     <div class="body-wrap" @click="previewImg(dataItem.images)">
       <div v-show="dataItem.images.length > 1" class="label">共{{dataItem.images.length}}张</div>
       <img :src="dataItem.images[0]" class="picture">
-    </div>
-    <div class="sentence-wrap">
-      <pre class="content">{{dataItem.sentence}}</pre>
     </div>
   </div>
 </template>
@@ -36,7 +36,6 @@ export default {
   width: 7.5rem;
   background: #ffffff;
   font-family: "Microsoft YaHei";
-  padding-bottom: 0.2rem;
   margin-bottom: 0.2rem;
   .header-wrap {
     width: 3rem;
@@ -56,8 +55,17 @@ export default {
       color: rgb(93, 93, 94);
     }
   }
-  .body-wrap {
+  .sentence-wrap {
+    padding-left: 0.2rem;
     padding-bottom: 0.2rem;
+    .content {
+      line-height: 0.36rem;
+      font-size: 0.26rem;
+      color: #000000;
+      font-family: "Microsoft YaHei";
+    }
+  }
+  .body-wrap {
     min-height: 3rem;
     position: relative;
     .label {
@@ -75,15 +83,6 @@ export default {
     }
     .picture {
       width: 7.5rem;
-    }
-  }
-  .sentence-wrap {
-    padding-left: 0.2rem;
-    .content {
-      line-height: 0.36rem;
-      font-size: 0.24rem;
-      color: #000000;
-      font-family: "Microsoft YaHei";
     }
   }
 }

@@ -8,7 +8,9 @@
     <div v-show="select===0" class="body-wrap">
       <card v-for="(item, index) in dataList" :key="index" :dataItem="item" @openPre="openPre"></card>
     </div>
-    <div v-show="select===1" class="picture-list">开发中~</div>
+    <div v-show="select===1" class="picture-list">
+      <picture-list></picture-list>
+    </div>
     <div v-show="select===0" class="footer">没有更多啦~</div>
     <common-gallery v-show="preController" :imgs="pictureList" @closePre="closePre"></common-gallery>
   </div>
@@ -18,10 +20,12 @@
 import CONTANST from '../assets/constant/constant'
 import Card from '../components/cardComonent'
 import CommonGallery from '../components/commonGallery'
+import PictureList from '../components/pictureList'
 export default {
   components: {
     Card,
-    CommonGallery
+    CommonGallery,
+    PictureList
   },
   data () {
     return {
