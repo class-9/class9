@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="head-wrap border-bottom clearFix">
+    <div v-show="select!==2" class="head-wrap border-bottom clearFix">
       <div class="nav nav-1 pull-left" @click="selectNav(0)">留言</div>
       <div class="nav nav-2 pull-right" @click="selectNav(1)">相册</div>
       <div :class="select === 0 ? 'bar left-bar' : 'bar right-bar'"></div>
@@ -9,7 +9,21 @@
       <card v-for="(item, index) in dataList" :key="index" :dataItem="item" @openPre="openPre"></card>
     </div>
     <div v-show="select===1" class="picture-list">
-      <picture-list></picture-list>
+      <picture-list
+        :pictures="pictures"
+        :videos="videos"
+        @openPre="openPre"
+        @openPreVideo="openPreVideo"
+      ></picture-list>
+    </div>
+    <div v-show="select===2" class="video-wrap">
+      <div class="return-wrap" @click="returnPicture">
+        <img src="http://39.107.121.241:7001/class9Avatar/return.png" class="return">
+      </div>
+
+      <div class="video" v-for="(item, index) of videoList" :key="index">
+        <video :src="item" controls="controls"></video>
+      </div>
     </div>
     <div v-show="select===0" class="footer">没有更多啦~</div>
     <common-gallery v-show="preController" :imgs="pictureList" @closePre="closePre"></common-gallery>
@@ -30,8 +44,11 @@ export default {
   data () {
     return {
       dataList: CONTANST.content,
+      pictures: CONTANST.pictureList,
+      videos: CONTANST.videoList,
       select: 0,
       pictureList: [],
+      videoList: [],
       preController: false
     }
   },
@@ -46,6 +63,13 @@ export default {
     },
     closePre () {
       this.preController = false
+    },
+    openPreVideo (data) {
+      this.videoList = data
+      this.select = 2
+    },
+    returnPicture () {
+      this.select = 1
     }
   }
 }
@@ -84,6 +108,28 @@ export default {
     }
     .right-bar {
       right: 1.075rem;
+    }
+  }
+  .video-wrap {
+    width: 7.5rem;
+    min-height: 100vh;
+    z-index: 3;
+    position: relative;
+    .return-wrap {
+      width: 7.5rem;
+      height: 0.8rem;
+      position: absolute;
+      top: -0.8rem;
+    }
+    .return {
+      height: 0.4rem;
+      position: absolute;
+      left: 0.2rem;
+      top: 0.2rem;
+    }
+    video {
+      width: 7.5rem;
+      margin-bottom: 0.4rem;
     }
   }
   .footer {

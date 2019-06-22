@@ -9,7 +9,7 @@
     <div class="sentence-wrap">
       <pre class="content">{{dataItem.sentence}}</pre>
     </div>
-    <div class="body-wrap" @click="previewImg(dataItem.images)">
+    <div v-if="dataItem.images[0]" class="body-wrap" @click="previewImg(dataItem.images)">
       <div v-show="dataItem.images.length > 1" class="label">共{{dataItem.images.length}}张</div>
       <img :src="dataItem.images[0]" class="picture">
     </div>
