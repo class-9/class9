@@ -12,7 +12,7 @@
           <p class="number">{{item.pictureContent.length}}张</p>
         </div>
       </div>
-      <div class="wrap">
+      <!-- <div class="wrap">
         <div
           class="picture"
           :style="{ backgroundImage: `url(http://39.107.121.241:7001/class9Avatar/video.jpg)` }"
@@ -22,7 +22,7 @@
           <p class="name">{{videos[0].name}}</p>
           <p class="number">{{videos[0].videos.length}}个</p>
         </div>
-      </div>
+      </div>-->
     </div>
   </div>
 </template>
