@@ -107,6 +107,15 @@ export default {
       images: ['http://39.107.121.241:7001/class9/xs.jpg']
     },
     {
+      name: '杨宇萱',
+      icon: ['http://39.107.121.241:7001/class9Avatar/yyx.JPG'],
+      sentence: '',
+      images: [
+        'http://39.107.121.241:7001/class9/yyx-1.jpg',
+        'http://39.107.121.241:7001/class9/yyx-2.jpg'
+      ]
+    },
+    {
       name: '朱慧美',
       icon: ['http://39.107.121.241:7001/class9Avatar/zhm.JPG'],
       sentence: '时光不染，回忆不淡',
@@ -258,7 +267,9 @@ export default {
         'http://39.107.121.241:7001/oldYears/130.JPG',
         'http://39.107.121.241:7001/oldYears/131.JPG',
         'http://39.107.121.241:7001/oldYears/132.JPG',
-        'http://39.107.121.241:7001/oldYears/133.JPG'
+        'http://39.107.121.241:7001/oldYears/133.JPG',
+        'http://39.107.121.241:7001/oldYears/134.JPG',
+        'http://39.107.121.241:7001/oldYears/135.JPG'
       ]
     },
     {
