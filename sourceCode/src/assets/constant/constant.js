@@ -287,15 +287,39 @@ export default {
         'http://39.107.121.241:7001/beihu/10.JPG',
         'http://39.107.121.241:7001/beihu/11.JPG'
       ]
+    },
+    {
+      name: '毕业照',
+      pictureContent: [
+        'http://39.107.121.241:7001/biyezhao/1.jpg',
+        'http://39.107.121.241:7001/biyezhao/2.jpg',
+        'http://39.107.121.241:7001/biyezhao/3.jpg',
+        'http://39.107.121.241:7001/biyezhao/4.jpg',
+        'http://39.107.121.241:7001/biyezhao/5.jpg',
+        'http://39.107.121.241:7001/biyezhao/6.jpg',
+        'http://39.107.121.241:7001/biyezhao/7.jpg',
+        'http://39.107.121.241:7001/biyezhao/8.jpg',
+        'http://39.107.121.241:7001/biyezhao/9.jpg',
+        'http://39.107.121.241:7001/biyezhao/10.jpg',
+        'http://39.107.121.241:7001/biyezhao/11.jpg',
+        'http://39.107.121.241:7001/biyezhao/12.jpg',
+        'http://39.107.121.241:7001/biyezhao/13.jpg',
+        'http://39.107.121.241:7001/biyezhao/14.jpg',
+        'http://39.107.121.241:7001/biyezhao/15.jpg',
+        'http://39.107.121.241:7001/biyezhao/16.jpg',
+        'http://39.107.121.241:7001/biyezhao/17.jpg',
+        'http://39.107.121.241:7001/biyezhao/18.jpg',
+        'http://39.107.121.241:7001/biyezhao/19.jpg',
+        'http://39.107.121.241:7001/biyezhao/20.jpg',
+        'http://39.107.121.241:7001/biyezhao/21.jpg',
+        'http://39.107.121.241:7001/biyezhao/22.jpg'
+      ]
     }
   ],
   videoList: [
     {
-      name: '视频',
-      videos: [
-        'http://39.107.121.241:7001/video/1.MP4',
-        'http://39.107.121.241:7001/video/2.MP4'
-      ]
+      name: '毕业照短视频',
+      videos: ['http://39.107.121.241:7001/video/1.mp4']
     }
   ]
 }

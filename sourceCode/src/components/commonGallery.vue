@@ -1,9 +1,12 @@
 <template>
   <div class="pre-container" @click="closePre">
     <div class="wrapper">
-      <swiper :options="swiperOptions">
+      <swiper :options="swiperOptions" ref="mySwiper">
         <swiper-slide v-for="(item, index) of imgs" :key="index">
-          <div class="gallery-img" :style="{ backgroundImage: `url(${item})` }"></div>
+          <div
+            class="gallery-img"
+            :style="index < (activeIndex + 3) ? { backgroundImage: `url(${item})` } : {backgroundImage: ''}"
+          ></div>
         </swiper-slide>
         <div class="swiper-pagination" slot="pagination"></div>
       </swiper>
@@ -27,12 +30,21 @@ export default {
         pagination: {
           el: '.swiper-pagination',
           type: 'fraction'
+        },
+        on: {
+          slideChangeTransitionEnd: () => {
+            let swiper = this.$refs.mySwiper.swiper
+            this.activeIndex = swiper.activeIndex
+          }
         }
-      }
+      },
+      activeIndex: 0
     }
   },
   methods: {
     closePre () {
+      this.$refs.mySwiper.swiper.slideTo(0, 0, false)
+      this.activeIndex = 0
       this.$emit('closePre')
     }
   }
