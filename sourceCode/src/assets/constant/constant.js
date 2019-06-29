@@ -1,325 +1,377 @@
 export default {
   content: [
     {
-      name: '班花们',
-      icon: ['http://39.107.121.241:7001/class9Avatar/class9.JPG'],
-      sentence: '可爱的女孩子们~',
-      images: ['http://39.107.121.241:7001/class9/girl-1.jpg']
-    },
-    {
       name: '陈奕霖',
-      icon: ['http://39.107.121.241:7001/class9Avatar/cyl.JPG'],
+      icon: [
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9Avatar/cyl.JPG'
+      ],
       sentence: '最可爱的崽~',
-      images: ['http://39.107.121.241:7001/class9/cyl.jpg']
+      images: [
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9/cyl.jpg'
+      ]
     },
     {
       name: '谷悦',
-      icon: ['http://39.107.121.241:7001/class9Avatar/gy.JPG'],
+      icon: [
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9Avatar/gy.JPG'
+      ],
       sentence: '我是这条gai最亮的仔',
       images: [
-        'http://39.107.121.241:7001/class9/gy-2.jpg',
-        'http://39.107.121.241:7001/class9/gy-1.jpg',
-        'http://39.107.121.241:7001/class9/gy-3.jpg'
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9/gy-2.jpg',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9/gy-1.jpg',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9/gy-3.jpg'
       ]
     },
     {
       name: '姜定一',
-      icon: ['http://39.107.121.241:7001/class9Avatar/jdy.JPG'],
+      icon: [
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9Avatar/jdy.JPG'
+      ],
       sentence: `尽管天下没有不散的宴席
 但人生何处不相逢`,
-      images: ['http://39.107.121.241:7001/class9/jdy.jpg']
+      images: [
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9/jdy.jpg'
+      ]
     },
     {
       name: '姜雪超',
-      icon: ['http://39.107.121.241:7001/class9Avatar/jxc.JPG'],
+      icon: [
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9Avatar/jxc.JPG'
+      ],
       sentence: '最美班花 1号~',
-      images: ['http://39.107.121.241:7001/class9/jxc.jpg']
+      images: [
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9/jxc.jpg'
+      ]
     },
     {
       name: '李煜权',
-      icon: ['http://39.107.121.241:7001/class9Avatar/lyq.JPG'],
+      icon: [
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9Avatar/lyq.JPG'
+      ],
       sentence: `“青涩不及当初，聚散不由你我。”`,
-      images: ['http://39.107.121.241:7001/class9/lyq.jpg']
+      images: [
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9/lyq.jpg'
+      ]
     },
     {
       name: '李文略',
-      icon: ['http://39.107.121.241:7001/class9Avatar/lwl.JPG'],
+      icon: [
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9Avatar/lwl.JPG'
+      ],
       sentence: `流年似水 回忆犹新 相忘江湖`,
       images: [
-        'http://39.107.121.241:7001/class9/lwl-1.jpg',
-        'http://39.107.121.241:7001/class9/lwl-2.jpg',
-        'http://39.107.121.241:7001/class9/lwl-3.jpg'
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9/lwl-1.jpg',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9/lwl-2.jpg',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9/lwl-3.jpg'
       ]
     },
     {
       name: '刘琳',
-      icon: ['http://39.107.121.241:7001/class9Avatar/ll.JPG'],
+      icon: [
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9Avatar/ll.JPG'
+      ],
       sentence: '山水一程 三生有幸',
       images: [
-        'http://39.107.121.241:7001/class9/ll-1.jpg',
-        'http://39.107.121.241:7001/class9/ll-2.jpg'
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9/ll-1.jpg',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9/ll-2.jpg'
       ]
     },
     {
       name: '蔺晓艺',
-      icon: ['http://39.107.121.241:7001/class9Avatar/lxy.JPG'],
+      icon: [
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9Avatar/lxy.JPG'
+      ],
       sentence: '人生总有聚散分离，就让记忆永存心底',
       images: [
-        'http://39.107.121.241:7001/class9/lxy-2.jpg',
-        'http://39.107.121.241:7001/class9/lxy-1.jpg',
-        'http://39.107.121.241:7001/class9/lxy-3.jpg'
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9/lxy-2.jpg',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9/lxy-1.jpg',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9/lxy-3.jpg'
       ]
     },
     {
       name: '孙楚慈',
-      icon: ['http://39.107.121.241:7001/class9Avatar/scc.JPG'],
+      icon: [
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9Avatar/scc.JPG'
+      ],
       sentence: '前方浩浩荡荡、万事尽可期待',
-      images: ['http://39.107.121.241:7001/class9/scc-1.jpg']
+      images: [
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9/scc-1.jpg'
+      ]
     },
     {
       name: '孙岩',
-      icon: ['http://39.107.121.241:7001/class9Avatar/sy.JPG'],
+      icon: [
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9Avatar/sy.JPG'
+      ],
       sentence: '最美班花 2号~',
-      images: ['http://39.107.121.241:7001/class9/sy.jpg']
+      images: [
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9/sy.jpg'
+      ]
     },
     {
       name: '佟松原',
-      icon: ['http://39.107.121.241:7001/class9Avatar/tsy.JPG'],
+      icon: [
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9Avatar/tsy.JPG'
+      ],
       sentence: '就此别过 后会有期',
-      images: ['http://39.107.121.241:7001/class9/tsy.jpg']
+      images: [
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9/tsy.jpg'
+      ]
     },
     {
       name: '王靖涵',
-      icon: ['http://39.107.121.241:7001/class9Avatar/wjh.JPG'],
+      icon: [
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9Avatar/wjh.JPG'
+      ],
       sentence: '相逢别离不过是曲目的变化。短则一念之间，长则几年。',
-      images: ['http://39.107.121.241:7001/class9/wjh.jpg']
+      images: [
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9/wjh.jpg'
+      ]
     },
     {
       name: '王洋',
-      icon: ['http://39.107.121.241:7001/class9Avatar/wy.JPG'],
+      icon: [
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9Avatar/wy.JPG'
+      ],
       sentence: '挥手告别说珍重 情谊永存藕丝连',
-      images: ['http://39.107.121.241:7001/class9/wy.jpg']
+      images: [
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9/wy.jpg'
+      ]
     },
     {
       name: '邢爽',
-      icon: ['http://39.107.121.241:7001/class9Avatar/xs.JPG'],
+      icon: [
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9Avatar/xs.JPG'
+      ],
       sentence: '四年的时光给了我太多美好的回忆，而你们是我最大的收获。',
-      images: ['http://39.107.121.241:7001/class9/xs.jpg']
+      images: [
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9/xs.jpg'
+      ]
     },
     {
       name: '杨宇萱',
-      icon: ['http://39.107.121.241:7001/class9Avatar/yyx.JPG'],
+      icon: [
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9Avatar/yyx.JPG'
+      ],
       sentence: '',
       images: [
-        'http://39.107.121.241:7001/class9/yyx-1.jpg',
-        'http://39.107.121.241:7001/class9/yyx-2.jpg'
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9/yyx-1.jpg',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9/yyx-2.jpg'
       ]
     },
     {
       name: '朱慧美',
-      icon: ['http://39.107.121.241:7001/class9Avatar/zhm.JPG'],
+      icon: [
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9Avatar/zhm.JPG'
+      ],
       sentence: '时光不染，回忆不淡',
       images: [
-        'http://39.107.121.241:7001/class9/zhm-1.jpg',
-        'http://39.107.121.241:7001/class9/zhm-2.jpg'
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9/zhm-1.jpg',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9/zhm-2.jpg'
       ]
     },
     {
       name: '朱天一',
-      icon: ['http://39.107.121.241:7001/class9Avatar/zty.jpg'],
+      icon: [
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9Avatar/zty.jpg'
+      ],
       sentence: '希望十年后的我们 还能像今天一样 豪情不减 嬉笑当年',
-      images: ['http://39.107.121.241:7001/class9/zty.jpg']
+      images: [
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/class9/zty.jpg'
+      ]
     }
   ],
   pictureList: [
     {
       name: '大学四年',
       pictureContent: [
-        'http://39.107.121.241:7001/oldYears/1.JPG',
-        'http://39.107.121.241:7001/oldYears/2.JPG',
-        'http://39.107.121.241:7001/oldYears/3.JPG',
-        'http://39.107.121.241:7001/oldYears/4.JPG',
-        'http://39.107.121.241:7001/oldYears/5.JPG',
-        'http://39.107.121.241:7001/oldYears/6.JPG',
-        'http://39.107.121.241:7001/oldYears/7.JPG',
-        'http://39.107.121.241:7001/oldYears/8.JPG',
-        'http://39.107.121.241:7001/oldYears/9.JPG',
-        'http://39.107.121.241:7001/oldYears/10.JPG',
-        'http://39.107.121.241:7001/oldYears/11.JPG',
-        'http://39.107.121.241:7001/oldYears/12.JPG',
-        'http://39.107.121.241:7001/oldYears/13.JPG',
-        'http://39.107.121.241:7001/oldYears/14.JPG',
-        'http://39.107.121.241:7001/oldYears/15.JPG',
-        'http://39.107.121.241:7001/oldYears/16.JPG',
-        'http://39.107.121.241:7001/oldYears/17.JPG',
-        'http://39.107.121.241:7001/oldYears/18.JPG',
-        'http://39.107.121.241:7001/oldYears/19.JPG',
-        'http://39.107.121.241:7001/oldYears/20.JPG',
-        'http://39.107.121.241:7001/oldYears/21.JPG',
-        'http://39.107.121.241:7001/oldYears/22.JPG',
-        'http://39.107.121.241:7001/oldYears/23.JPG',
-        'http://39.107.121.241:7001/oldYears/24.JPG',
-        'http://39.107.121.241:7001/oldYears/25.JPG',
-        'http://39.107.121.241:7001/oldYears/26.JPG',
-        'http://39.107.121.241:7001/oldYears/27.JPG',
-        'http://39.107.121.241:7001/oldYears/28.JPG',
-        'http://39.107.121.241:7001/oldYears/29.JPG',
-        'http://39.107.121.241:7001/oldYears/30.JPG',
-        'http://39.107.121.241:7001/oldYears/31.JPG',
-        'http://39.107.121.241:7001/oldYears/32.JPG',
-        'http://39.107.121.241:7001/oldYears/33.JPG',
-        'http://39.107.121.241:7001/oldYears/34.JPG',
-        'http://39.107.121.241:7001/oldYears/35.JPG',
-        'http://39.107.121.241:7001/oldYears/36.JPG',
-        'http://39.107.121.241:7001/oldYears/37.JPG',
-        'http://39.107.121.241:7001/oldYears/38.JPG',
-        'http://39.107.121.241:7001/oldYears/39.JPG',
-        'http://39.107.121.241:7001/oldYears/40.JPG',
-        'http://39.107.121.241:7001/oldYears/41.JPG',
-        'http://39.107.121.241:7001/oldYears/42.JPG',
-        'http://39.107.121.241:7001/oldYears/43.JPG',
-        'http://39.107.121.241:7001/oldYears/44.JPG',
-        'http://39.107.121.241:7001/oldYears/45.JPG',
-        'http://39.107.121.241:7001/oldYears/46.JPG',
-        'http://39.107.121.241:7001/oldYears/47.JPG',
-        'http://39.107.121.241:7001/oldYears/48.JPG',
-        'http://39.107.121.241:7001/oldYears/49.JPG',
-        'http://39.107.121.241:7001/oldYears/50.JPG',
-        'http://39.107.121.241:7001/oldYears/51.JPG',
-        'http://39.107.121.241:7001/oldYears/52.JPG',
-        'http://39.107.121.241:7001/oldYears/53.JPG',
-        'http://39.107.121.241:7001/oldYears/54.JPG',
-        'http://39.107.121.241:7001/oldYears/55.JPG',
-        'http://39.107.121.241:7001/oldYears/56.JPG',
-        'http://39.107.121.241:7001/oldYears/57.JPG',
-        'http://39.107.121.241:7001/oldYears/58.JPG',
-        'http://39.107.121.241:7001/oldYears/59.JPG',
-        'http://39.107.121.241:7001/oldYears/60.JPG',
-        'http://39.107.121.241:7001/oldYears/61.JPG',
-        'http://39.107.121.241:7001/oldYears/62.JPG',
-        'http://39.107.121.241:7001/oldYears/63.JPG',
-        'http://39.107.121.241:7001/oldYears/64.JPG',
-        'http://39.107.121.241:7001/oldYears/65.JPG',
-        'http://39.107.121.241:7001/oldYears/66.JPG',
-        'http://39.107.121.241:7001/oldYears/67.JPG',
-        'http://39.107.121.241:7001/oldYears/68.JPG',
-        'http://39.107.121.241:7001/oldYears/69.JPG',
-        'http://39.107.121.241:7001/oldYears/70.JPG',
-        'http://39.107.121.241:7001/oldYears/71.JPG',
-        'http://39.107.121.241:7001/oldYears/72.JPG',
-        'http://39.107.121.241:7001/oldYears/73.JPG',
-        'http://39.107.121.241:7001/oldYears/74.GIF',
-        'http://39.107.121.241:7001/oldYears/75.JPG',
-        'http://39.107.121.241:7001/oldYears/76.JPG',
-        'http://39.107.121.241:7001/oldYears/77.JPG',
-        'http://39.107.121.241:7001/oldYears/78.JPG',
-        'http://39.107.121.241:7001/oldYears/79.JPG',
-        'http://39.107.121.241:7001/oldYears/80.JPG',
-        'http://39.107.121.241:7001/oldYears/81.JPG',
-        'http://39.107.121.241:7001/oldYears/82.JPG',
-        'http://39.107.121.241:7001/oldYears/83.JPG',
-        'http://39.107.121.241:7001/oldYears/84.JPG',
-        'http://39.107.121.241:7001/oldYears/85.JPG',
-        'http://39.107.121.241:7001/oldYears/86.JPG',
-        'http://39.107.121.241:7001/oldYears/87.JPG',
-        'http://39.107.121.241:7001/oldYears/88.JPG',
-        'http://39.107.121.241:7001/oldYears/89.JPG',
-        'http://39.107.121.241:7001/oldYears/90.JPG',
-        'http://39.107.121.241:7001/oldYears/91.JPG',
-        'http://39.107.121.241:7001/oldYears/92.JPG',
-        'http://39.107.121.241:7001/oldYears/93.JPG',
-        'http://39.107.121.241:7001/oldYears/94.JPG',
-        'http://39.107.121.241:7001/oldYears/95.JPG',
-        'http://39.107.121.241:7001/oldYears/96.JPG',
-        'http://39.107.121.241:7001/oldYears/97.JPG',
-        'http://39.107.121.241:7001/oldYears/98.JPG',
-        'http://39.107.121.241:7001/oldYears/99.JPG',
-        'http://39.107.121.241:7001/oldYears/100.JPG',
-        'http://39.107.121.241:7001/oldYears/101.JPG',
-        'http://39.107.121.241:7001/oldYears/102.JPG',
-        'http://39.107.121.241:7001/oldYears/103.JPG',
-        'http://39.107.121.241:7001/oldYears/104.JPG',
-        'http://39.107.121.241:7001/oldYears/105.JPG',
-        'http://39.107.121.241:7001/oldYears/106.JPG',
-        'http://39.107.121.241:7001/oldYears/107.JPG',
-        'http://39.107.121.241:7001/oldYears/108.JPG',
-        'http://39.107.121.241:7001/oldYears/109.JPG',
-        'http://39.107.121.241:7001/oldYears/110.JPG',
-        'http://39.107.121.241:7001/oldYears/111.JPG',
-        'http://39.107.121.241:7001/oldYears/112.JPG',
-        'http://39.107.121.241:7001/oldYears/113.JPG',
-        'http://39.107.121.241:7001/oldYears/114.JPG',
-        'http://39.107.121.241:7001/oldYears/115.JPG',
-        'http://39.107.121.241:7001/oldYears/116.JPG',
-        'http://39.107.121.241:7001/oldYears/117.JPG',
-        'http://39.107.121.241:7001/oldYears/118.JPG',
-        'http://39.107.121.241:7001/oldYears/119.JPG',
-        'http://39.107.121.241:7001/oldYears/120.JPG',
-        'http://39.107.121.241:7001/oldYears/121.JPG',
-        'http://39.107.121.241:7001/oldYears/122.JPG',
-        'http://39.107.121.241:7001/oldYears/123.JPG',
-        'http://39.107.121.241:7001/oldYears/124.JPG',
-        'http://39.107.121.241:7001/oldYears/125.JPG',
-        'http://39.107.121.241:7001/oldYears/126.JPG',
-        'http://39.107.121.241:7001/oldYears/127.JPG',
-        'http://39.107.121.241:7001/oldYears/128.JPG',
-        'http://39.107.121.241:7001/oldYears/129.JPG',
-        'http://39.107.121.241:7001/oldYears/130.JPG',
-        'http://39.107.121.241:7001/oldYears/131.JPG',
-        'http://39.107.121.241:7001/oldYears/132.JPG',
-        'http://39.107.121.241:7001/oldYears/133.JPG',
-        'http://39.107.121.241:7001/oldYears/134.JPG',
-        'http://39.107.121.241:7001/oldYears/135.JPG'
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/1.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/2.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/3.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/4.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/5.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/6.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/7.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/8.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/9.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/10.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/11.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/12.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/13.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/14.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/15.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/16.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/17.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/18.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/19.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/20.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/21.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/22.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/23.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/24.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/25.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/26.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/27.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/28.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/29.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/30.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/31.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/32.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/33.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/34.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/35.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/36.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/37.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/38.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/39.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/40.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/41.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/42.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/43.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/44.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/45.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/46.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/47.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/48.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/49.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/50.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/51.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/52.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/53.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/54.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/55.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/56.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/57.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/58.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/59.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/60.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/61.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/62.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/63.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/64.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/65.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/66.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/67.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/68.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/69.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/70.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/71.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/72.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/73.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/74.GIF',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/75.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/76.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/77.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/78.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/79.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/80.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/81.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/82.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/83.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/84.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/85.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/86.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/87.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/88.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/89.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/90.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/91.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/92.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/93.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/94.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/95.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/96.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/97.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/98.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/99.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/100.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/101.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/102.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/103.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/104.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/105.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/106.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/107.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/108.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/109.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/110.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/111.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/112.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/113.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/114.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/115.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/116.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/117.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/118.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/119.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/120.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/121.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/122.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/123.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/124.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/125.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/126.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/127.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/128.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/129.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/130.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/131.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/132.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/133.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/134.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/oldYears/135.JPG'
       ]
     },
     {
       name: '北湖~',
       pictureContent: [
-        'http://39.107.121.241:7001/beihu/1.JPG',
-        'http://39.107.121.241:7001/beihu/2.JPG',
-        'http://39.107.121.241:7001/beihu/3.JPG',
-        'http://39.107.121.241:7001/beihu/4.JPG',
-        'http://39.107.121.241:7001/beihu/5.JPG',
-        'http://39.107.121.241:7001/beihu/6.JPG',
-        'http://39.107.121.241:7001/beihu/7.JPG',
-        'http://39.107.121.241:7001/beihu/8.JPG',
-        'http://39.107.121.241:7001/beihu/9.JPG',
-        'http://39.107.121.241:7001/beihu/10.JPG',
-        'http://39.107.121.241:7001/beihu/11.JPG'
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/beihu/1.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/beihu/2.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/beihu/3.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/beihu/4.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/beihu/5.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/beihu/6.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/beihu/7.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/beihu/8.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/beihu/9.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/beihu/10.JPG',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/beihu/11.JPG'
       ]
     },
     {
       name: '毕业照',
       pictureContent: [
-        'http://39.107.121.241:7001/biyezhao/1.jpg',
-        'http://39.107.121.241:7001/biyezhao/2.jpg',
-        'http://39.107.121.241:7001/biyezhao/3.jpg',
-        'http://39.107.121.241:7001/biyezhao/4.jpg',
-        'http://39.107.121.241:7001/biyezhao/5.jpg',
-        'http://39.107.121.241:7001/biyezhao/6.jpg',
-        'http://39.107.121.241:7001/biyezhao/7.jpg',
-        'http://39.107.121.241:7001/biyezhao/8.jpg',
-        'http://39.107.121.241:7001/biyezhao/9.jpg',
-        'http://39.107.121.241:7001/biyezhao/10.jpg',
-        'http://39.107.121.241:7001/biyezhao/11.jpg',
-        'http://39.107.121.241:7001/biyezhao/12.jpg',
-        'http://39.107.121.241:7001/biyezhao/13.jpg',
-        'http://39.107.121.241:7001/biyezhao/14.jpg',
-        'http://39.107.121.241:7001/biyezhao/15.jpg',
-        'http://39.107.121.241:7001/biyezhao/16.jpg',
-        'http://39.107.121.241:7001/biyezhao/17.jpg',
-        'http://39.107.121.241:7001/biyezhao/18.jpg',
-        'http://39.107.121.241:7001/biyezhao/19.jpg',
-        'http://39.107.121.241:7001/biyezhao/20.jpg',
-        'http://39.107.121.241:7001/biyezhao/21.jpg',
-        'http://39.107.121.241:7001/biyezhao/22.jpg'
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/biyezhao/1.jpg',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/biyezhao/2.jpg',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/biyezhao/3.jpg',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/biyezhao/4.jpg',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/biyezhao/5.jpg',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/biyezhao/6.jpg',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/biyezhao/7.jpg',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/biyezhao/8.jpg',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/biyezhao/9.jpg',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/biyezhao/10.jpg',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/biyezhao/11.jpg',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/biyezhao/12.jpg',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/biyezhao/13.jpg',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/biyezhao/14.jpg',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/biyezhao/15.jpg',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/biyezhao/16.jpg',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/biyezhao/17.jpg',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/biyezhao/18.jpg',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/biyezhao/19.jpg',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/biyezhao/20.jpg',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/biyezhao/21.jpg',
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/biyezhao/22.jpg'
       ]
     }
   ],
   videoList: [
     {
       name: '毕业照短视频',
-      videos: ['http://39.107.121.241:7001/video/1.mp4']
+      videos: [
+        'https://raw.githubusercontent.com/MrJdy/Graduation/master/server/app/public/dist/video/1.mp4'
+      ]
     }
   ]
 }
