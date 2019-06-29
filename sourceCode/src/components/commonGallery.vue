@@ -73,12 +73,12 @@ export default {
       width: 100%;
       height: 100vh;
       background-repeat: no-repeat;
-      background-position: center center;
+      background-position: center 30%;
       background-size: contain;
     }
     .swiper-pagination {
       color: #ffffff;
-      bottom: 0.4rem;
+      bottom: 2rem;
     }
   }
 }
