@@ -1,17 +1,17 @@
 <template>
   <div class="card-wrap">
     <div class="header-wrap clearFix" @click="previewImg(dataItem.icon)">
-      <img :src="dataItem.icon[0]" class="icon pull-left">
+      <img :src="dataItem.icon[0]" class="icon pull-left" />
       <p class="name pull-left">{{dataItem.name}}</p>
-      <br>
-      <p class="time pull-left">2019.6.10</p>
+      <br />
+      <p class="time pull-left">2019.6.27</p>
     </div>
     <div class="sentence-wrap">
       <pre class="content">{{dataItem.sentence}}</pre>
     </div>
     <div v-if="dataItem.images[0]" class="body-wrap" @click="previewImg(dataItem.images)">
       <div v-show="dataItem.images.length > 1" class="label">共{{dataItem.images.length}}张</div>
-      <img :src="dataItem.images[0]" class="picture">
+      <img :src="dataItem.images[0]" class="picture" />
     </div>
   </div>
 </template>

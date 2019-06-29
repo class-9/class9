@@ -41,6 +41,12 @@ export default {
       activeIndex: 0
     }
   },
+  mounted () {
+    let bigImg = document.getElementsByClassName('pre-container')[0]
+    bigImg.addEventListener('touchmove', () => {
+      event.preventDefault()
+    })
+  },
   methods: {
     closePre () {
       this.$refs.mySwiper.swiper.slideTo(0, 0, false)

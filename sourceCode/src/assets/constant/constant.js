@@ -1,6 +1,14 @@
 export default {
   content: [
     {
+      name: '曹玮',
+      icon: [
+        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/class9.JPG'
+      ],
+      sentence: '请联系姜定一为您添加留言、照片和头像',
+      images: []
+    },
+    {
       name: '陈奕霖',
       icon: [
         'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/cyl.JPG'
@@ -9,6 +17,30 @@ export default {
       images: [
         'https://raw.githubusercontent.com/class-9/class9/master/picture/class9/cyl.jpg'
       ]
+    },
+    {
+      name: '邓翌伟',
+      icon: [
+        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/class9.JPG'
+      ],
+      sentence: '请联系姜定一为您添加留言、照片和头像',
+      images: []
+    },
+    {
+      name: '杜佩琦',
+      icon: [
+        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/class9.JPG'
+      ],
+      sentence: '请联系姜定一为您添加留言、照片和头像',
+      images: []
+    },
+    {
+      name: '冯一轩',
+      icon: [
+        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/class9.JPG'
+      ],
+      sentence: '请联系姜定一为您添加留言、照片和头像',
+      images: []
     },
     {
       name: '谷悦',
@@ -23,6 +55,22 @@ export default {
       ]
     },
     {
+      name: '郝建强',
+      icon: [
+        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/class9.JPG'
+      ],
+      sentence: '请联系姜定一为您添加留言、照片和头像',
+      images: []
+    },
+    {
+      name: '胡嘉恒',
+      icon: [
+        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/class9.JPG'
+      ],
+      sentence: '请联系姜定一为您添加留言、照片和头像',
+      images: []
+    },
+    {
       name: '姜定一',
       icon: [
         'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/jdy.JPG'
@@ -32,6 +80,14 @@ export default {
       images: [
         'https://raw.githubusercontent.com/class-9/class9/master/picture/class9/jdy.jpg'
       ]
+    },
+    {
+      name: '姜绍博',
+      icon: [
+        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/class9.JPG'
+      ],
+      sentence: '请联系姜定一为您添加留言、照片和头像',
+      images: []
     },
     {
       name: '姜雪超',
@@ -44,14 +100,20 @@ export default {
       ]
     },
     {
-      name: '李煜权',
+      name: '蒋小萌',
       icon: [
-        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/lyq.JPG'
+        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/class9.JPG'
       ],
-      sentence: `“青涩不及当初，聚散不由你我。”`,
-      images: [
-        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9/lyq.jpg'
-      ]
+      sentence: '请联系姜定一为您添加留言、照片和头像',
+      images: []
+    },
+    {
+      name: '李松',
+      icon: [
+        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/class9.JPG'
+      ],
+      sentence: '请联系姜定一为您添加留言、照片和头像',
+      images: []
     },
     {
       name: '李文略',
@@ -66,15 +128,46 @@ export default {
       ]
     },
     {
-      name: '刘琳',
+      name: '李煜权',
       icon: [
-        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/ll.JPG'
+        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/lyq.JPG'
       ],
-      sentence: '山水一程 三生有幸',
+      sentence: `“青涩不及当初，聚散不由你我。”`,
       images: [
-        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9/ll-1.jpg',
-        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9/ll-2.jpg'
+        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9/lyq.jpg'
       ]
+    },
+    {
+      name: '李泽',
+      icon: [
+        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/class9.JPG'
+      ],
+      sentence: '请联系姜定一为您添加留言、照片和头像',
+      images: []
+    },
+    {
+      name: '李臻',
+      icon: [
+        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/class9.JPG'
+      ],
+      sentence: '请联系姜定一为您添加留言、照片和头像',
+      images: []
+    },
+    {
+      name: '梁天惠',
+      icon: [
+        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/class9.JPG'
+      ],
+      sentence: '请联系姜定一为您添加留言、照片和头像',
+      images: []
+    },
+    {
+      name: '林一鸣',
+      icon: [
+        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/class9.JPG'
+      ],
+      sentence: '请联系姜定一为您添加留言、照片和头像',
+      images: []
     },
     {
       name: '蔺晓艺',
@@ -87,6 +180,41 @@ export default {
         'https://raw.githubusercontent.com/class-9/class9/master/picture/class9/lxy-1.jpg',
         'https://raw.githubusercontent.com/class-9/class9/master/picture/class9/lxy-3.jpg'
       ]
+    },
+    {
+      name: '刘琳',
+      icon: [
+        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/ll.JPG'
+      ],
+      sentence: '山水一程 三生有幸',
+      images: [
+        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9/ll-1.jpg',
+        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9/ll-2.jpg'
+      ]
+    },
+    {
+      name: '刘心宇',
+      icon: [
+        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/class9.JPG'
+      ],
+      sentence: '请联系姜定一为您添加留言、照片和头像',
+      images: []
+    },
+    {
+      name: '罗家琛',
+      icon: [
+        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/class9.JPG'
+      ],
+      sentence: '请联系姜定一为您添加留言、照片和头像',
+      images: []
+    },
+    {
+      name: '米锦乾',
+      icon: [
+        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/class9.JPG'
+      ],
+      sentence: '请联系姜定一为您添加留言、照片和头像',
+      images: []
     },
     {
       name: '孙楚慈',
@@ -129,6 +257,14 @@ export default {
       ]
     },
     {
+      name: '王上',
+      icon: [
+        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/class9.JPG'
+      ],
+      sentence: '请联系姜定一为您添加留言、照片和头像',
+      images: []
+    },
+    {
       name: '王洋',
       icon: [
         'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/wy.JPG'
@@ -137,6 +273,22 @@ export default {
       images: [
         'https://raw.githubusercontent.com/class-9/class9/master/picture/class9/wy.jpg'
       ]
+    },
+    {
+      name: '王奕博',
+      icon: [
+        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/class9.JPG'
+      ],
+      sentence: '请联系姜定一为您添加留言、照片和头像',
+      images: []
+    },
+    {
+      name: '肖汉阳',
+      icon: [
+        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/class9.JPG'
+      ],
+      sentence: '请联系姜定一为您添加留言、照片和头像',
+      images: []
     },
     {
       name: '邢爽',
@@ -149,6 +301,14 @@ export default {
       ]
     },
     {
+      name: '杨青昕',
+      icon: [
+        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/class9.JPG'
+      ],
+      sentence: '请联系姜定一为您添加留言、照片和头像',
+      images: []
+    },
+    {
       name: '杨宇萱',
       icon: [
         'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/yyx.JPG'
@@ -158,6 +318,46 @@ export default {
         'https://raw.githubusercontent.com/class-9/class9/master/picture/class9/yyx-1.jpg',
         'https://raw.githubusercontent.com/class-9/class9/master/picture/class9/yyx-2.jpg'
       ]
+    },
+    {
+      name: '于少聪',
+      icon: [
+        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/class9.JPG'
+      ],
+      sentence: '请联系姜定一为您添加留言、照片和头像',
+      images: []
+    },
+    {
+      name: '张博',
+      icon: [
+        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/class9.JPG'
+      ],
+      sentence: '请联系姜定一为您添加留言、照片和头像',
+      images: []
+    },
+    {
+      name: '赵建巡',
+      icon: [
+        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/class9.JPG'
+      ],
+      sentence: '请联系姜定一为您添加留言、照片和头像',
+      images: []
+    },
+    {
+      name: '赵英春',
+      icon: [
+        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/class9.JPG'
+      ],
+      sentence: '请联系姜定一为您添加留言、照片和头像',
+      images: []
+    },
+    {
+      name: '赵勇强',
+      icon: [
+        'https://raw.githubusercontent.com/class-9/class9/master/picture/class9Avatar/class9.JPG'
+      ],
+      sentence: '请联系姜定一为您添加留言、照片和头像',
+      images: []
     },
     {
       name: '朱慧美',
@@ -318,8 +518,8 @@ export default {
         'https://raw.githubusercontent.com/class-9/class9/master/picture/oldYears/131.JPG',
         'https://raw.githubusercontent.com/class-9/class9/master/picture/oldYears/132.JPG',
         'https://raw.githubusercontent.com/class-9/class9/master/picture/oldYears/133.JPG',
-        'https://raw.githubusercontent.com/class-9/class9/master/picture/oldYears/134.JPG',
-        'https://raw.githubusercontent.com/class-9/class9/master/picture/oldYears/135.JPG'
+        'https://raw.githubusercontent.com/class-9/class9/master/picture/oldYears/134.jpg',
+        'https://raw.githubusercontent.com/class-9/class9/master/picture/oldYears/135.jpg'
       ]
     },
     {

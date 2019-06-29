@@ -18,7 +18,7 @@
     </div>
     <div v-show="select===2" class="video-wrap">
       <div class="return-wrap" @click="returnPicture">
-        <img src="http://39.107.121.241:7001/class9Avatar/return.png" class="return">
+        <img src="http://39.107.121.241:7001/class9Avatar/return.png" class="return" />
       </div>
 
       <div class="video" v-for="(item, index) of videoList" :key="index">
