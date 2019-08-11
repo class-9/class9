@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-if="dataItem.id === 1" class="card-wrap">
+    <div v-if="dataItem.id === 1" class="card-wrap card-wrap-voice">
       <div class="header-wrap clearFix" @click="previewImg(dataItem.icon)">
         <img :src="dataItem.icon[0]" class="icon pull-left" />
         <p class="name pull-left">{{dataItem.name}}</p>
@@ -11,8 +11,9 @@
         <pre class="content">{{dataItem.sentence}}</pre>
       </div>
       <div class="body-wrap" @click="playBg()">
-        <img :src="dataItem.images[0]" class="picture" />
+        <img :src="dataItem.images[0]" class="picture picture-voice" />
       </div>
+      <audio :src="dataItem.voice" controls="controls" preload ref="music" hidden />
     </div>
     <div v-if="dataItem.id !== 1" class="card-wrap">
       <div class="header-wrap clearFix" @click="previewImg(dataItem.icon)">
@@ -39,9 +40,22 @@ export default {
       type: Object
     }
   },
+  data () {
+    return {
+      playing: false
+    }
+  },
   methods: {
     previewImg (picList) {
       this.$emit('openPre', picList)
+    },
+    playBg () {
+      this.playing = !this.playing
+      if (this.playing) {
+        this.$refs.music.play()
+      } else {
+        this.$refs.music.pause()
+      }
     }
   }
 }
@@ -100,6 +114,15 @@ export default {
     .picture {
       width: 7.5rem;
     }
+    .picture-voice {
+      width: auto;
+      height: 0.8rem;
+    }
+  }
+}
+.card-wrap-voice {
+  .body-wrap {
+    min-height: auto;
   }
 }
 </style>
